@@ -68,7 +68,7 @@
     }
 }
 
-    @media screen and (min-width:380px) and (max-width:766px) {
+    @media screen and (min-width:360px) and (max-width:766px) {
         .txt-center{
             text-align: center!important;
         }
