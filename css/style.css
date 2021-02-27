@@ -1,0 +1,441 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:firstfont;
+    src:url(../fonts/album-avantquelombre.ttf);
+}
+input {
+    border-radius: 50px;
+    background: #4a4a4a;
+    border: 0px;
+    outline: none;
+}
+
+.go {
+    background: red;
+    border-radius: 100%;
+}
+
+
+
+
+
+.fashion-style{
+    font-family:firstfont;
+    font-size:40px;
+    position: relative;
+}
+
+.f-logo {
+    background: #000;
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+    border-radius: 100%;
+    font-family:firstfont;
+    color: white;
+    font-weight: bold; 
+    font-size: 56px;
+    text-align: center;
+}
+
+.store-txt {
+    color:red;
+    font-size: 20px;
+    position: absolute;
+    top: 55px;
+    left: 120px;
+}
+
+.header-image {
+    width: 100%;
+}
+
+
+
+.bg-color {
+    background-color: #c3c3c3;
+}
+
+.blank {
+    width:100px;
+}
+
+
+
+.text-color {
+    color: #2d2d2d !important;
+    border-right: 1px solid #b4b4b4;
+}
+
+.user-name{
+    background: white;
+}
+.search-glass {
+    position: relative;
+    right:40px;
+}
+
+.collection-bg {
+    width: 100%;
+    background:url(../image/baner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:314px;
+    position: relative;
+}
+
+.collection-txt {
+    padding-left:240px;
+    padding-top: 85px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.summer {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 81px;
+    left: 151px;
+    font-family: Georgia Bold;
+}
+@font-face{
+    font-family:second-font;
+    src:url(../fonts/HelveticaNeueLTStd-Roman.otf);
+}
+.helping {
+    font-family: second-font;
+    position: absolute;
+    font-size: 25px;
+    top: 115px;
+    left: 16px;
+}
+
+.percent {
+    font-family: Georgia Regular;
+    background: #000;
+    border-radius: 100%;
+    color: white;
+    width:60px;
+    height: 60px;
+    position: relative;
+    top: 0px;
+    left: 316px;
+}
+
+.percent-sign {
+       top: 25px;
+    position: absolute;
+    left: 40px;
+}
+
+.ercent-numeric {
+    font-size: 40px;
+    position: absolute;
+    top: -15px;
+}
+
+.off {
+    color: red;
+    position: absolute;
+        top: 35px;
+    left: 13px;
+}
+
+.girl {
+    position: absolute;
+    top:-3px;
+    right: 0px;
+    
+}
+
+.cool-collection {
+    background:url(../image/girl-winter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:314px;
+    width:100%; 
+    position: relative;
+    overflow: hidden;
+}
+
+.winter-collection {
+    width:200px;
+    min-height: 200px;
+    background:#bc3726;
+    border-radius: 100px 90px 30px 100px;
+    position: absolute;
+    left: 184px;
+    top: 118px;
+}
+
+.cool-txt {
+    background: #000;
+    width: 100%;
+    color: white;
+    float: left;
+    font-size: 40px;
+    font-family: third-font;
+}
+@font-face{
+    font-family:third-font;
+    src:url(../fonts/Bebas-Regular.ttf);
+}
+
+
+.get {
+    color: white;
+    position: absolute;
+    left: 80px;
+    top:5px;
+    color: #e29489;
+    font-size: 18px;
+}
+
+.collection {
+    color: white;
+    position: absolute;
+    left: 85px;
+    top:29px;
+    color: #000;
+}
+
+.winter {
+    color: white;
+    position: absolute;
+      left: 65px;
+    top: 40px;
+    font-size: 29px
+}
+
+.percent-winter {
+    color: white;
+    position: absolute;
+    left: 74px;
+    top: 60px;
+    font-size: 45px;
+    font-family: Georgia Regular;
+}
+
+.off-winter {
+    color: white;
+    position: absolute;
+    left:105px;
+    top:99px;
+    font-size: 30px;
+}
+.percent-winx{
+    top: 22px;
+    position: absolute;
+    font-size: 30px;
+    font-size: 19px;
+}
+.full-body {
+    background: #f6f6f4;
+}
+
+.latest-arrival {
+    font-family: third-font;
+    font-size: 40px;
+    position: relative;
+    display: block;
+}
+.latest-arrival::after {
+    content: "";
+    position:absolute;
+    height: 2px;
+    background: #e5e5e5;
+    width: 70%;
+    left:10px;
+    top:110px;
+}
+
+.arrival-txt {
+    color: #858585;
+    display: block;
+}
+
+.item-image {
+    background: url(../image/dress.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 205px;
+    width: 100%;
+}
+
+.arrival-offer {
+   font-size: 30px;
+    font-family: Georgia Regular; 
+    background: white;
+    border-radius: 100%;
+    height:80px;
+    width:80px;
+    position: relative;
+    left: 150px;
+    top: 30px;
+    padding-left: 15px;
+}
+
+.arrival-off {
+    font-size: 20px;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+.right-advertisement {
+    background: url(../image/blck.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 140px;
+    width: 100%;
+    position: relative;
+}
+
+.exclusive {
+    position: absolute;
+    font-size: 30px;
+    font-family: second-font;
+    color: brown;
+    left:20%;
+}
+
+.discount {
+      position: absolute;
+    font-size: 30px;
+    font-family: second-font;
+    color: balck;
+    left:50%;
+    top: 25px;
+}
+
+.womens {
+      position: absolute;
+    font-size: 30px;
+    font-family: second-font;
+    color: brown;
+    left:20%;
+    top: 49px;
+}
+
+.know-bg {
+    background: #bc3726;
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 78%;
+    padding-left: 3%;
+    left: 50%;
+}
+
+.right-advertisement-two {
+    background: url(../image/whit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 140px;
+    width: 100%;
+    position: relative;
+}
+
+.tweet-box {
+    width: 100%;
+    min-height:310px;
+    background: #fff;
+}
+
+.tweet-update {
+    font-family: third-font;
+    font-size: 20px;
+    position: relative;
+}
+.tweet-update::after {
+    content: "";
+   position: absolute;
+    width: 80%;
+    height: 2px;
+    background: #d8d8d8;
+    top: 80px;
+    left:5%;
+}
+
+
+.tweet-icon {
+    position: absolute;
+    top: 70px;
+    left:50%;
+    width: 35%;
+    height: 45px;
+}
+
+.tweet-txts {
+    font-size: 16px;
+    font-family: second-font;
+    position: absolute;
+    top:130px;
+}
+
+.tweet-comment {
+    color: blue;
+}
+
+.slider-box {
+    width: 100%;
+    min-height: 400px;
+}
+
+
+
+
+
+
+footer {
+    background: #2d2d2d;
+    min-height: 150px;
+}
+
+.footer-mnu {
+    color: white;
+}
+
+li {
+    display: inline-block;
+}
+
+
+
+
+
+.f-logo-footer {
+    background: #fff;
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+    border-radius: 100%;
+    font-family:firstfont;
+    color: black;
+    font-weight: bold; 
+    font-size: 56px;
+    text-align: center;
+}
+
+.fashion-style-footer {
+    font-family: firstfont;
+    font-size: 30px;
+    color:white;
+    position: relative;
+}
+
+.store {
+    position:absolute;
+    top:45px;
+    left:60px;
+}

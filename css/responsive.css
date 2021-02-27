@@ -1,0 +1,136 @@
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .sign-up {
+        border-left: 2px solid white;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .sign-up {
+        border-left: 2px solid white;
+    }
+
+    .winter-collection {
+        left: 118px !important;
+        top: 118px;
+
+    }
+
+    .percent {
+        top: 40px;
+        left: 196px;
+    }
+
+    .exclusive {
+        font-size: 20px;
+    }
+
+    .discount {
+        font-size: 20px;
+    }
+
+    .womens {
+        font-size: 20px;
+    }
+
+    .know-bg {
+        font-size: 16px;
+    }
+
+    .arrival-offer {
+        font-size: 23px;
+        height: 65px;
+        width: 65px;
+        left: 120px;
+        top: 87px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:991px) {
+    .sign-up {
+        border-left: 2px solid white;
+    }
+
+    .blank {
+        display: none;
+    }
+
+    .winter-collection {
+        left: 500px !important;
+
+    }
+
+    .arrival-offer {
+        font-size: 23px;
+        height: 65px;
+        width: 65px;
+        left: 515px;
+
+    }
+}
+
+    @media screen and (min-width:380px) and (max-width:766px) {
+        .txt-center{
+            text-align: center!important;
+        }
+        .nav-item {
+            display: inline-block !important;
+        }
+
+        .go {
+            margin-left: 130px;
+            /*        margin-right: 50px;*/
+            text-align: center;
+
+        }
+
+        .sign-up {
+            margin-left: 120px;
+        }
+
+        .helping {
+            top: 115px;
+            left: 8px;
+        }
+
+        .summer {
+            top: 81px;
+            left: 75px;
+
+        }
+
+        .collection-txt {
+            padding-left: 120px;
+        }
+
+        .girl {
+            /*        display: none;*/
+        }
+
+        .winter-collection {
+            left: 270px !important;
+            top: 118px;
+        }
+
+        .arrival-offer {
+            position: relative;
+            left: 350px !important;
+        }
+
+        .right-advertisement {
+            min-height: 240px !important;
+        }
+
+        .know-bg {
+            top: 88% !important;
+            position: absolute;
+        }
+
+        .percent {
+            position: relative;
+            top: 60px;
+            left: 100px !important;
+        }
+        .right-advertisement-two {
+    min-height: 240px;
+}
+    }
