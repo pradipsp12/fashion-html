@@ -103,7 +103,8 @@
         }
 
         .girl {
-            /*        display: none;*/
+            top:151x;
+            height:163px !important;
         }
 
         .winter-collection {
@@ -127,8 +128,8 @@
 
         .percent {
             position: relative;
-            top: 60px;
-            left: 100px !important;
+            top: 86px;
+            left: 40px !important;
         }
         .right-advertisement-two {
     min-height: 240px;
